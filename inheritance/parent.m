@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "parent.h"
-@implementation parent
--(void) print{
+@implementation Parent
+-(void) Print{
     NSLog (@"In Parent");
     
     

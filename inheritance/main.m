@@ -8,12 +8,21 @@
 
 #import <Foundation/Foundation.h>
 #import "child.h"
+#import "parent.h"
+void Process (Parent * P){
+    [P Print];
+}
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
+       
         child* mychild = [child alloc];
-        mychild = [mychild init] ;
-        [mychild print];
+        mychild = [mychild init];
+    Process(mychild);
+    
+        Parent* myParent = [Parent alloc];
+        myParent = [myParent init];
+        Process(myParent);
+    
     }
     return 0;
 }

@@ -10,7 +10,7 @@
 #ifndef inheritance_child_h
 #define inheritance_child_h
 #import "parent.h"
-@interface child: parent
+@interface child: Parent
 
 
 @end

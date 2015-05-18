@@ -8,7 +8,7 @@
 
 #ifndef inheritance_parent_h
 #define inheritance_parent_h
-@interface parent: NSObject
--(void) print;
+@interface Parent: NSObject
+-(void) Print;
 @end
 #endif
